@@ -8,7 +8,7 @@ var data = [
   {}
 ];
 
-var app = new App(data);
+app = new App(data);
 app.mount('#app');
 }
 });
