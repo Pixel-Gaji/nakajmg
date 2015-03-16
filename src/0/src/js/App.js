@@ -7,6 +7,6 @@ var App = (function() {
   App.prototype.mount = function(selector) {
     $(selector).append(this.view.el);
   }
-  
+
   return App;
 })();
